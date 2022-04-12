@@ -11,6 +11,7 @@ func FibonacciRecursion(n int) int {
 	}
 	return FibonacciRecursion(n-1) + FibonacciRecursion(n-2)
 }
+
 func main() {
 	fmt.Print("Enter the number of terms: ")
 	var terms int
