@@ -20,6 +20,7 @@ func main() {
 	for i := 0; i < terms; i++ {
 		fmt.Print(strconv.Itoa(FibonacciRecursion(i)) + " ")
 	}
+
 	fmt.Print("\n")
 	fmt.Print("Press any key to exit")
 	var exit string
